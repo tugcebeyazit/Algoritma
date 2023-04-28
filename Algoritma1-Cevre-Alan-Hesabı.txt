@@ -9,4 +9,4 @@ psedou yöntemi
 5. cevre = 2*(kisaKenar+uzunKenar)
 5. alan = kisaKenar*uzunKenar
 6. Yaz alan cevre
-7. bitir
+7. bitir.
