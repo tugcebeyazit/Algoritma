@@ -1,0 +1,8 @@
+Soru : Yarý çapý verilen dairenin alanýný hesaplayan algoritma ve akýþ þemasýný tasarlayýnýz
+
+A1: Baþla
+A2: Sayýsal yarica, alan (reel formatýnda)
+A3: oku: yaricap
+A4: alan = yaricap * yaricap * 3.14
+A5: yaz alan
+A6: bitir
