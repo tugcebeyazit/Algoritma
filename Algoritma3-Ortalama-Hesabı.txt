@@ -1,0 +1,10 @@
+Soru : girilen 3 sayýnýn ortalamasýný hesaplayan algoritma
+
+A1: Baþla
+A2: Sayýsal s1, s2, s3, ort (reel girelim)
+A3: oku: s1
+A4: oku: s2
+A5: oku: s3
+A6: ort = (s1+s2+s3)/3
+A7: yaz ort
+A6: bitir
