@@ -1,0 +1,9 @@
+Soru: Fiyat ve kdv oraný girilen ürünün  toplam fiyat ve kdvsini hesaplayan algoritma 
+
+A1: Baþla
+A2: fiyat, kdvorani, toplamFiyat, kdvTutari
+A3: oku fiyat
+A4: oku kdvorani
+A5: toplamFiyat = fiyat + (1+kdvorani)
+A6: kdvtutari = toplamFiyat - fiyat
+A7: Yaz toplamTutat , kdvtutari
