@@ -1,0 +1,8 @@
+Soru:Üniversite için vize final sýnavlarý yapýlmaktadýr. Bir öðrencinin dersten geçme þartý vizenin %30 ile final notunun %70 in toplamý 50 ve üzeri ve final notunun 50 ve daha yüksek olmasýdýr. Buna uygun algoritmayý oluþturunuz.
+
+A1: Baþla
+A2: Sayýsal vize, final, ortalama
+A3: Oku vize, final
+A4: ortalama = vize * 30 / 100 + final * 70 / 100
+A5: Eðer ortalama > 50 && final > 50 ise Yaz Geçti A6: Deðilse Yaz Kaldý
+A7: Bitir

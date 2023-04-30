@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-30 10:52:12 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0zMDsxMDo0Mjo0MSDDllM7MzgzNg=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0zMDsxMDo1MjoxMiDDllM7MTszOTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vize, final" type="Integer" array="False" size=""/>
+            <declare name="Ort" type="Real" array="False" size=""/>
+            <output expression="&quot;Vize Notunuz: &quot;" newline="True"/>
+            <input variable="vize"/>
+            <output expression="&quot;Final Notunuz:&quot;" newline="True"/>
+            <input variable="final"/>
+            <assign variable="Ort" expression="vize*0.30+final*0.70"/>
+            <if expression="Ort&gt;50 &amp;&amp; final&gt;50">
+                <then>
+                    <output expression="&quot;Ge&#231;tiniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kald&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Ortalaman&#305;z:&quot; &amp; Ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
