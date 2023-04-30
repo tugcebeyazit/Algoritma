@@ -1,0 +1,13 @@
+Soru: Aþaðýda verilen parçalý fonksiyonda, klavyeden girilen x deðeri için y’yi hesaplayýp ekrana yazdýran programýn satýr kodunu ve akýþ diyagramýný geliþtiriniz.
+
+Ekte fonksiyon verilmiþtir.
+
+A1: baþla
+A2: sayýsal x,y reel
+A3: yaz "x için bir deðer giriniz"
+A4: oku x
+A5: eðer 1<=x<=10 ise yaz x+2
+A6: eðer 1<x ise 3x-4
+A7: eðer x>10 ise 2x+4
+A8: yaz "f(x) deðeri:" & y
+A9: bitir
