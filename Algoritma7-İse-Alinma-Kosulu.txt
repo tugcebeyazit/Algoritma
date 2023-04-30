@@ -7,8 +7,8 @@ veren kodu yazýnýz.
 
 A1: baþla
 A2: yas (tamsayý), universiteMezunu, surucuBelgesi (string)
-A3: oku yas
-A4: yaz "yaþýnýzý giriniz"
+A3: yaz "yaþýnýzý giriniz"
+A4: oku yas
 A5: Eðer yaþ 40tan büyükse yaz "üzgünüz ise alýnmadýnýz".
     Eðer yas 40tan küçükse;
 A6: yaz "üniversite mezunu musunuz? E/H 
