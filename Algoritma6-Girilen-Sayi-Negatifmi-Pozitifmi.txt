@@ -1,0 +1,12 @@
+Soru: girilen sayý 0dan büyük ise pozitif küçük ise negatif sýfýra eþitse sýfýr mesajýný verdiren algoritma
+
+A1: baþla 
+A2: sayýsal sayi (reel)
+A3: yaz "bir sayý giriniz"
+A4: oku sayi
+A5: eðer sayi=0 ise yaz "sayi sýfýra eþittir"
+    Deðilse bir sonraki adýma geçiniz
+A6: Eðer sayi>0 ise pozitif
+    eðer sayi<0 ise negatif
+A7: bitir
+
