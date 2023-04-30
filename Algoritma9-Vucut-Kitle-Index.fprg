@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-30 10:29:14 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0zMDswNzo0NDoxMSDDllM7Mzg0MQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0zMDsxMDoyOToxNCDDllM7MTszOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="boy, kilo, index" type="Real" array="False" size=""/>
+            <output expression="&quot;Kilonuz&quot;" newline="True"/>
+            <input variable="kilo"/>
+            <output expression="&quot;Boyunuz&quot;" newline="True"/>
+            <input variable="boy"/>
+            <assign variable="index" expression="kilo /( boy * boy)"/>
+            <if expression="index&lt;18.5">
+                <then>
+                    <output expression="&quot;Zay&#305;f&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="index&gt;=18.5 &amp;&amp; index&lt;=24.9">
+                        <then>
+                            <output expression="&quot;Sa&#287;l&#305;kl&#305;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="index&gt;=28 &amp;&amp; index&lt;=29.9">
+                                <then>
+                                    <output expression="&quot;Fazla kilolu&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="index&gt;=30 &amp;&amp; index&lt;=34.9">
+                                        <then>
+                                            <output expression="&quot;I. derece Obezite&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="index&gt;=35 &amp;&amp; index&lt;=39.9">
+                                                <then>
+                                                    <output expression="&quot;II. Derece obezite&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="index&gt;=40">
+                                                        <then>
+                                                            <output expression="&quot;III. derece obezite&quot;" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;&#304;ndexsiniz: &quot; &amp; index" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
