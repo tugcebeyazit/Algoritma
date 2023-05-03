@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 10:56:57 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wMzsxMDo0Mzo1NyDDllM7Mzg0NQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wMzsxMDo1Njo1NyDDllM7MTszOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="puan" type="Integer" array="False" size=""/>
+            <output expression="&quot;Puan Giriniz:&quot;" newline="True"/>
+            <input variable="puan"/>
+            <if expression="puan&gt;=85 &amp;&amp; puan&lt;=100">
+                <then>
+                    <output expression="&quot;Puan&#305;n&#305;z 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="puan&gt;=70 &amp;&amp; puan&lt;=84">
+                        <then>
+                            <output expression="&quot;Puan&#305;n&#305;z 4&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="puan&gt;=55 &amp;&amp; puan&lt;=69">
+                                <then>
+                                    <output expression="&quot;Puan&#305;n&#305;z 3&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="puan&gt;=45 &amp;&amp; puan&lt;=54">
+                                        <then>
+                                            <output expression="&quot;Puan&#305;n&#305;z 2&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="puan&gt;=0 &amp;&amp; puan&lt;=44">
+                                                <then>
+                                                    <output expression="&quot;Puan&#305;n&#305;z 1&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
