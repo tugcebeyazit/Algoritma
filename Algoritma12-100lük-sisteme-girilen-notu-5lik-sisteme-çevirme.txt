@@ -9,4 +9,5 @@ A6: eðer 70<=puan<=84 ise yaz puan 4;
 A7: eðer 55<=puan<=69 ise yaz puan 3;
 A8: eðer 45<=puan<=54 ise yaz puan 2;
 A9: eðer 0<=puan<=44 ise yaz puan 1;
-A10: Bitir.
+A10:hiçbiri deðilse yaz "böyle bir not yok"
+A11: Bitir.
