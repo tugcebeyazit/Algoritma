@@ -1,0 +1,18 @@
+Soru: İkinci dereceden bir bilinmeyenli denklemin köklerini bulmak için gerekli olan 
+algoritmayı ve akış şemasını hazırlayınız. (a,b,c değerlerini kullanıcı girecektir)
+
+denklem: ax2+bx+c
+
+A1: başla
+A2: sayısal a,b,c,x1,x2,delta
+A3: yaz "a,b,c için değer giriniz:"
+A4: oku a
+A5: oku b
+A6: oku c
+A7: hesapla delta=b*b-4*a*c
+A8: Yaz "Delta:" & delta
+A9: eğer delta>0 ise hesapla: x1=(-b-(delta^(1/2)))/2*a
+			      x2=(-b+(delta^(1/2)))/2*a
+A10: eğer delta=0 ise hesapla x1=x2=-b/2*a 
+A11: eğer delta<0 ise yaz kök yok
+A12: bitir
