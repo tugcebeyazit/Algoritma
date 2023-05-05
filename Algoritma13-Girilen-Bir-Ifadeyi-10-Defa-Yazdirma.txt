@@ -1,0 +1,10 @@
+Soru: Girilen bir ifadeyi 10 defa ekranda yazýlmasýný saðlayan algoritma ve akýþ diagramýný
+
+A1: baþla
+A2: string metin, sayýsal sayac
+A3: yaz "Tekrarlanacak ifadeyi yazýný:"
+A4: oku metin
+A5: döngü (sayac=1 to 10 step)
+A6: yaz sayaç, metin
+A7: döngü sonu
+A8: bitir.
