@@ -1,0 +1,12 @@
+Soru: Girilen sayýya kadar olan sayýlarýn toplayan algoritma yazýnýz
+
+A1: baþla
+A2: sayýsal sayi,sayac,toplam
+A3: yaz "Sayý Giriniz:"
+A4: oku sayý
+A5: toplam=0
+A6: döngü (sayac=1 to sayý)
+A7: toplam=toplam+sayac
+A8: Döngü sonu
+A9: yaz toplam
+A10: bitir
