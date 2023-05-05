@@ -10,4 +10,4 @@ A7: eðer sayý%2==0 ise toplam=toplam+sayi
 A8: deðilse boþ
 A9: döngü bitir
 A10: yaz Çift sayýlarýn toplamý
-A11: bitir
+A11: bitir.

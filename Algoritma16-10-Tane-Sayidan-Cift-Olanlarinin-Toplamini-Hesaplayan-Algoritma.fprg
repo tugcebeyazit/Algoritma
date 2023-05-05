@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Administrator"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-05-05 11:44:37 &#214;S"/>
+        <attribute name="saved" value="2023-05-05 11:48:44 &#214;S"/>
         <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNTsxMToyMTo0OSDDllM7Mzg0NQ=="/>
-        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNTsxMTo0NDozNyDDllM7MTszOTU1"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNTsxMTo0ODo0NCDDllM7MzszOTU5"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="sayi, sayac, toplam" type="Integer" array="False" size=""/>
             <assign variable="toplam" expression="0"/>
             <for variable="sayac" start="1" end="10" direction="inc" step="1">
-                <output expression="sayac &amp; &quot;.&quot;&amp; &quot;Bir Say&#305; Giriniz:&quot;" newline="True"/>
+                <output expression="sayac &amp; &quot;.&quot;&amp; &quot; &quot; &amp; &quot;Bir Say&#305; Giriniz:&quot;" newline="True"/>
                 <input variable="sayi"/>
                 <if expression="sayi%2==0">
                     <then>
