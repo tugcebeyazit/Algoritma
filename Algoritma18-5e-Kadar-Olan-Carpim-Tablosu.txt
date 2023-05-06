@@ -1,0 +1,9 @@
+Soru: 5e kadar olan çarpým tablosunu ekrana yazdýrýn
+
+A1: baþla
+A2: sayýsal i,j
+A3: döngü (i=1 to 5 step 1)
+A4:	döngü (j=1 to 10 step=1) (içiçe döngü)
+A5: çýktý i "x" j "=" i*j
+A6: 	döngü sonu j
+A7: döngü sonu i
