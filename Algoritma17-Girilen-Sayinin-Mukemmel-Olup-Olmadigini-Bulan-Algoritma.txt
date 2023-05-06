@@ -1,0 +1,17 @@
+Soru: Girilen sayýnýn mükemmel olup olmadýðýný bulan algoritmayý yazýnýz.
+Mükemmel sayý: kendisi hariç pozitif tam bölenlerinin toplamý sayýnýn kendisine eþit 
+olan sayýya denir.
+örneðin: 28 pozitif tam bölenleri 1,2,4,7,14 bu sayýlarýn toplamý 28 eder ve sayý mükemmeldir.
+
+Algoritmasý:
+
+A1: baþla
+A2: sayýsal sayi,sayac,carpanToplami
+A3: carpanToplami=0
+A4: yaz "bir sayý giriniz:"
+A5: oku sayi
+A6: döngü (sayac=1 to sayi/2 step 1)
+A7: eðer sayi%sayac=0 ise carpanToplamý=carpanToplami+sayac
+A8: döngü sonu
+A9: eðer sayi==carpanToplami ise Sayý Mükemmel deðilse mükemmel deðil
+A10: bitir

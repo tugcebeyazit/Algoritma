@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-06 10:11:25 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNjswODoxNTo0NSDDllM7Mzg1MQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNjsxMDoxMToyNSDDllM7MTszOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, carpanToplami, sayac" type="Integer" array="False" size=""/>
+            <assign variable="carpanToplami" expression="0"/>
+            <output expression="&quot;Bir Sayi&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="sayac" start="1" end="sayi/2" direction="inc" step="1">
+                <if expression="sayi%sayac=0">
+                    <then>
+                        <assign variable="carpanToplami" expression="carpanToplami+sayac"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="sayi==carpanToplami">
+                <then>
+                    <output expression="&quot;Sayi Mukemmeldir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Sayi Mukemmel Degildir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
