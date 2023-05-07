@@ -1,14 +1,16 @@
 Soru: Girilen 10 adet sayýnýn kaç tanesi pozitif kaç tanesi negatif olduðunu yazan algoritma
 
 A1: baþla
-A2: sayýsal sayi,pozitifSayi,negatifSayi,sayac
+A2: sayýsal sayi,pozitifSayi,negatifSayi,sayac, sifirsayi
 A3: pozitifSayi=0
 A4: negatifSayi=0
-A5: döngü (sayac=1 to 10 step=1)
-A6: Yaz "Bir Sayý Giriniz:")
-A7: oku sayi
-A8: eðer sayi>0 ise pozitifSayi=pozitifSayi+1
-A9: eðer Sayi<0 ise negatifSayi=negatifSayi+1
+A5: sifirsayi=0
+A6: döngü (sayac=1 to 10 step=1)
+A7: Yaz "Bir Sayý Giriniz:")
+A8: oku sayi
+A9: eðer sayi>0 ise pozitifSayi=pozitifSayi+1
+A9: eðer Sayi==0 ise sifir sayi=sifirsayi+1
+		     negatifSayi=negatifSayi+1
 A10: döngü bitir
-A11: Çýktý "Pozitif Sayý Sayýsý:", pozitifSayi, "Negatif Sayi Sayýsý", negatifSayi
+A11: Çýktý "Pozitif Sayý Sayýsý:", pozitifSayi, "Negatif Sayi Sayýsý", negatifSayi, "Sýfýr Sayi Sayýsý", sifirSayi
 A12: bitir.
