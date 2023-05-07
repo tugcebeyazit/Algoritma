@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-06 11:03:00 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNjsxMDo1ODoxNCDDllM7Mzg0Nw=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wNjsxMTowMzowMCDDllM7MTszOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, faktoriyel, sayac" type="Integer" array="False" size=""/>
+            <output expression="&quot;Fakt&#246;riyeli Hesaplanacak Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="faktoriyel" expression="1"/>
+            <for variable="sayac" start="1" end="sayi" direction="inc" step="1">
+                <assign variable="faktoriyel" expression="faktoriyel*sayac"/>
+            </for>
+            <output expression="sayi &amp; &quot;!&quot; &amp; &quot; &quot; &amp;&quot;:&quot; &amp; faktoriyel" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
