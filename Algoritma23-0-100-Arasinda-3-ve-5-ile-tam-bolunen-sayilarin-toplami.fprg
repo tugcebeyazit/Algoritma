@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-11 11:04:39 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0xMTsxMDo0MDoxMiDDllM7MzgzMg=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0xMTsxMTowNDozOSDDllM7MTszOTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, toplam" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <assign variable="toplam" expression="0"/>
+            <while expression="sayi&lt;100">
+                <if expression="sayi%3==0 &amp;&amp; sayi%5==0">
+                    <then>
+                        <assign variable="toplam" expression="toplam+sayi"/>
+                        <output expression="sayi" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="sayi" expression="sayi+1"/>
+            </while>
+            <output expression="&quot;3 ve 5i tam b&#246;len say&#305;lar&#305;n toplam&#305;: &quot; &amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
