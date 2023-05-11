@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-11 09:27:43 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0xMTswNzozMTo0NiDDllM7Mzg0NQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0xMTswOToyNzo0MyDDllM7MTszOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <output expression="&quot;Bir say&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <while expression="sayi&lt;10">
+                <assign variable="sayi" expression="sayi+1"/>
+                <output expression="&quot;Tu&#287;&#231;e Beyazit&quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
