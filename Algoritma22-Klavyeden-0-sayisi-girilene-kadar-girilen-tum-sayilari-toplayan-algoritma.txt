@@ -1,0 +1,12 @@
+Soru: Klavyeden 0 sayýsý  girilene kadar girilen tüm sayýlarý toplayan programýn algoritmasýný ve akýþ þemasýný 
+
+A1: baþla 
+A2: sayýsal sayi, toplam
+A3: Bir sayý giriniz
+A4: toplam=0
+A5: döngü (sayi!=0) ise toplam=toplam+sayi
+A6: bir sayi giriniz
+A7: oku sayi
+A8: döngü bitir
+A9: çýktý "sayýlarýnýn toplamý: " & toplam
+A10: döngü bitir
