@@ -1,0 +1,15 @@
+soru: 10 tabanındaki bir sayıyı bir sayıyı 2lik tabana çeviren algoritmayı ve akış diagramını yazınız.
+
+A1: başla
+A2: sayısal sayi, kalan
+A3: string ikiSayiTabani
+A4: yaz bir sayı giriniz
+A4: oku sayi
+A5: döngü while (sayi>1)
+	kalan=sayi%2
+	sayi = tam kısmı yani int(sayi/2)
+	ikincisayitabanı=kalan&ikincisayitabanı
+A6: döngü sonu
+A7: ikisayitabanı= 1 & ikisayitabani
+A8: yaz ikisayitabani
+A9: döngü
