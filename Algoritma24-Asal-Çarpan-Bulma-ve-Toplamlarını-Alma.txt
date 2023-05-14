@@ -1,0 +1,17 @@
+Soru: Girilen sayýnn asal çarpanlarýný bulan algoritma ve akýþ diagramýný hazýrlayýn
+
+A1: baþla
+A2: sayýsal sayi, bölen, toplsm
+A3: bolen=2 (asal sayý 2den baþlýyor)
+A4: toplam=0
+A5: yaz "Asal çarpanlarýný bulmak istediðiniz bir sayý giriniz"
+A6: oku sayi
+A7: döngü while (sayi>1) ise
+	eðer sayi%bolen==0 ise
+		sayi=sayi/bolen yaz bolen
+		toplam=toplam+bolen
+	deðilse
+		sayi=sayi+1
+A8: döngü bitir
+A9: yaz "Bölenlerin toplamý: " & toplam
+A10: bitir
