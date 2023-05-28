@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-28 10:10:33 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0yODswOTo1ODozNSDDllM7Mzg2Mg=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0yODsxMDoxMDozMyDDllM7MTszOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, bolen, bolenlerCarpimi" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Girniz:&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;2. Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="s2"/>
+            <assign variable="bolen" expression="2"/>
+            <assign variable="bolenlerCarpimi" expression="1"/>
+            <while expression="s1&gt;1 &amp;&amp; s2&gt;2">
+                <if expression="s1%bolen==0 &amp;&amp; s2%bolen==0">
+                    <then>
+                        <assign variable="bolenlerCarpimi" expression="bolenlerCarpimi*bolen"/>
+                        <assign variable="s1" expression="s1/bolen"/>
+                        <assign variable="s2" expression="s2/bolen"/>
+                    </then>
+                    <else>
+                        <if expression="s1%bolen!=0&amp;&amp;s1%bolen!=0">
+                            <then>
+                                <assign variable="bolen" expression="bolen+1"/>
+                            </then>
+                            <else>
+                                <if expression="s1%bolen!=0">
+                                    <then>
+                                        <assign variable="s2" expression="s2/bolen"/>
+                                    </then>
+                                    <else>
+                                        <assign variable="s1" expression="s1/bolen"/>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;OBEB:&quot; &amp; bolenlerCarpimi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
