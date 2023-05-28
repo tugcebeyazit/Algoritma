@@ -1,0 +1,16 @@
+Soru: Girilen 2 sayýnýn ortak bölenlerinin en büyüðünü bulan algoritma
+Not: s1=sayý1 - s2=sayi2 yi ifade eder
+
+A1: baþla
+A2: sayisal s1, s2 
+A3: yaz "Birinci Sayýyý Giriniz:"
+A4: oku s1
+A5: yaz "Ýkinci Sayýyý Giriniz:"
+A6: oku s2
+A7: döngü while (s1<>s2)
+A8: eðer (s1>s2) 
+	s1=s1-s2
+deðilse s2=s2-s1
+A9: döngü sonu
+A10: yaz s1
+A11: bitir
