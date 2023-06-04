@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-04 06:45:10 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNDswNTozOToyMSDDllM7Mzg0Nw=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNDswNjo0NToxMCDDllM7MTszOTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="istenenSayi, bulunanSayi, KontrolEdilenSayi, carpanToplami, sayac" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ka&#231; Adet M&#252;kemmel Say&#305; &#304;stiyorsunuz?&quot;" newline="True"/>
+            <input variable="istenenSayi"/>
+            <assign variable="bulunanSayi" expression="0"/>
+            <assign variable="kontrolEdilenSayi" expression="1"/>
+            <while expression="istenenSayi&gt;bulunanSayi">
+                <assign variable="carpanToplami" expression="0"/>
+                <for variable="sayac" start="1" end="kontrolEdilenSayi/2" direction="inc" step="1">
+                    <if expression="kontrolEdilenSayi%sayac==0">
+                        <then>
+                            <assign variable="carpanToplami" expression="carpanToplami+sayac"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <if expression="kontrolEdilenSayi==carpanToplami">
+                    <then>
+                        <output expression="kontrolEdilenSayi" newline="True"/>
+                        <assign variable="bulunanSayi" expression="bulunanSayi+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="kontrolEdilenSayi" expression="kontrolEdilenSayi+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
