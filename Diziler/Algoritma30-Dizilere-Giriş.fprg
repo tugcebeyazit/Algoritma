@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-05 02:13:53 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNDswOTowNDo0NSDDllM7Mzg0OQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNTswMjoxMzo1MyDDllM7MTszOTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gunSayisi" type="Integer" array="False" size=""/>
+            <declare name="gunler" type="String" array="True" size="7"/>
+            <assign variable="gunler[0]" expression="&quot;Pazartesi&quot;"/>
+            <assign variable="gunler[1]" expression="&quot;Sal&#305;&quot;"/>
+            <assign variable="gunler[2]" expression="&quot;&#199;ar&#351;amba&quot;"/>
+            <assign variable="gunler[3]" expression="&quot;Per&#351;embe&quot;"/>
+            <assign variable="gunler[4]" expression="&quot;Cuma&quot;"/>
+            <assign variable="gunler[5]" expression="&quot;Cumartesi&quot;"/>
+            <assign variable="gunler[6]" expression="&quot;Pazar&quot;"/>
+            <output expression="&quot;G&#246;r&#252;nt&#252;lemek &#304;stedi&#287;iniz G&#252;n&#252; Say&#305; Olarak Giriniz:&quot;" newline="True"/>
+            <input variable="gunSayisi"/>
+            <output expression="gunler[gunSayisi]" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,13 @@
+Soru: Girilen deðere göre günü getirme
+
+gunler  = ["Pazartesi","Salý","Çarþamba","Perþembe","Cuma","Cumartesi","Pazar"]
+
+örneðin gunler[0] çaðýrýnca Pazartesi Ekrana yazsýn dersek;
+
+gunsayisi tamsayý
+gunler string
+
+tanýmlanacak
+
+
+gunler[gun]
