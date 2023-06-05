@@ -1,0 +1,23 @@
+Soru: Haftanýn günleri for ve while ile ekrana yazdýralým
+
+gunler ve gun olarak iki ayrý deðiþkenimiz olacak bu gunler string yani metinsel ifade
+gun ise tamsayý olan sayýsal ifadeleri tutacak
+gunler[gun]
+
+for döngüsü ile
+A1: baþla
+A2: sayýsal gun , i
+A3: metinsel gunler
+A4: gunler[gun]="tanýmlamasý"
+A5: döngü for (i=0 to 6)
+	yaz gunler[i]
+
+while döngüsü ile
+A1: baþla
+A2: sayýsal gun , i
+A3: metinsel gunler
+A4: gunler[gun]="tanýmlamasý"
+A5: i=0
+A6: döngü while (i<7)
+	yaz gunler[i]
+	i=i+1
