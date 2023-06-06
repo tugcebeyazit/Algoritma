@@ -1,0 +1,13 @@
+Soru: Dizi içinde bulunan 5 sayýdan en büyük olanýný bulmayý saðlayan algoritma
+
+A1: baþla
+A2: sayýsal i, enbuyuksayi
+A3: sayýsal sayi[i]
+A4: sayi=[15,76,50,80,26]
+A5: enbuyuksayi=sayi[0]
+A6: dongu for(sayac=0 to 4)
+	eðer sayi[i]>enbuyuksayi
+		enbuyuksayi=sayi[i]
+A7: dongu sonu
+A8: yaz enbuyuksayi
+A9: bitiþ

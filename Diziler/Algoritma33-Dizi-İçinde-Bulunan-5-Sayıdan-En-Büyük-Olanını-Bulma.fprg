@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-06 07:07:02 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNjswNjowMjoxMiDDllM7Mzg0MA=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNjswNzowNzowMiDDllM7MTszOTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, enBuyukSayi" type="Integer" array="False" size=""/>
+            <declare name="sayi" type="Integer" array="True" size="5"/>
+            <assign variable="sayi[0]" expression="15"/>
+            <assign variable="sayi[1]" expression="76"/>
+            <assign variable="sayi[1]" expression="76"/>
+            <assign variable="sayi[2]" expression="50"/>
+            <assign variable="sayi[3]" expression="80"/>
+            <assign variable="sayi[4]" expression="26"/>
+            <assign variable="enBuyukSayi" expression="sayi[0]"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <if expression="enBuyukSayi&lt;sayi[i]">
+                    <then>
+                        <assign variable="enBuyukSayi" expression="sayi[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="enBuyukSayi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
