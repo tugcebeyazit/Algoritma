@@ -1,0 +1,11 @@
+Soru: Dizi içinde bulunan 5 öðrencinin notlarýna 10 puan eklenmesini asaðlayan algoritma
+
+A1: baþla
+A2: sayýsal sayac yani ogrenci yerine geçecek
+A3: Dizi notlar
+A4: notlar=[80,75,53,62,43]
+A5: döngü for (sayac=1 to 4)
+A6: notlar[sayac]=notlar[sayac]+10
+A7: yaz notlar[sayac]
+A8: döngü bitir
+A9: bitir
