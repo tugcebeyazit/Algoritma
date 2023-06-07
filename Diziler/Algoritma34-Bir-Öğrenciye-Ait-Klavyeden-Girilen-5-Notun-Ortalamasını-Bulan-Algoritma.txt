@@ -1,0 +1,15 @@
+Soru: Bir öðrenciye ait klavyeden girilen 5 notun ortalamasýný bulan programýn algoritmasý
+
+A1: baþla
+A2: sayýsal sayac, notToplami, (reel) ortalama
+A3: dizi notlar[5]
+A4: notToplami=0
+A5: dongu for (sayac=0 to 4)
+	yaz sayac+1 ". Notu Giriniz:" => sayac+1 kullanmanýn nedeni 0. not deðilde 1. nottan baþlamasý için
+	oku notlar[sayac]
+A6: dongu bitir
+A7: dongu for (sayac=0 to 4) 
+	notlarToplami=notlarToplami+notlar[sayac]
+A8: dongu bitir
+A9: yaz ortalama=notlarToplamý/sayac
+A10: bitir
