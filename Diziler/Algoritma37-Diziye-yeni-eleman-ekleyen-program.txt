@@ -1,0 +1,25 @@
+Soru: Kullanýcýdan 7 elemanlý dizi oluþturmasýný isteyelim bunlar þu þekilde olacak
+
+0	1	2	3	4	5	6
+5	17	22	9	36	47	_
+
+istenilen bir konuma yeni bir sayý ekleyeceðiz eðer konumda baþka bir sayý varsa
+bu sayýyýb kaybetmeden diðer sayý girilmelidir
+
+A1: baþla
+A2: sayýsal dizi[100]
+A3: sayýsal i, sayi, konum, elemansayisi
+A4: yaz "Kaç sayý giriceksiniz:"
+A5: oku elemansayisi
+A6: for (i=0 to elemansayisi-1)
+	yaz "Bir Sayý Giriniz:"
+	oku dizi[i]	döngüden çýk
+A7: Yaz "Hangi konuma sayý girecek:"
+A8: oku konum 
+A9: yaz "Diziye eklenecek sayýyý giriniz:"
+A10: oku sayi
+A11: for (i=elemansayisi-1 to konum-1 azalan)
+A12: dizi[i+1]=dizi[i]	döngüden çýk
+A13: dizi[konum-1]=sayi
+A14: for (i=0 to elemansayisi)
+	yaz dizi[i]
