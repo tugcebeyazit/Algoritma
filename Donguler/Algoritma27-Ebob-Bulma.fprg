@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-28 09:23:25 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0yODswNzoyNDo1MiDDllM7Mzg1Mg=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0yODswOToyMzoyNSDDllM7MTszOTYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinci Sayiyi Giriniz:&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;&#304;kinci Sayiyi Giriniz:&quot;" newline="True"/>
+            <input variable="s2"/>
+            <while expression="s1&lt;&gt;s2">
+                <if expression="s1&gt;s2">
+                    <then>
+                        <assign variable="s1" expression="s1-s2"/>
+                    </then>
+                    <else>
+                        <assign variable="s2" expression="s2-s1"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="s1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

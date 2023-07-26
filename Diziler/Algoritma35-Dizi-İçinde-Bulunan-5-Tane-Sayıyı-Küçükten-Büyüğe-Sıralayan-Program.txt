@@ -1,0 +1,30 @@
+Soru: Dizi içinde bulunan 5 tane sayýyý küçükten büyüðe sýralayan programýn algoritma prog.
+
+Sayi= [21,14,36,27,11]
+
+Sýralama iþlemi için metot olarak elemanlarýn yanýndaki sayý ile ikili gruplar halinde karþýlaþtýrma
+yaparak küçük olan sayýsý sol tarafa yada büyük olan sayýyý sað tarafa yazdýrmamýz gerekir
+bunun içinde dizide 5 eleman varsa bu iþlem 2li kombine yapýlcaðý için n-1 den 4 kez 
+tekrarlanacaktýr.
+
+ve en önemlisi 21 ile 14 ü karþýlaþtýrýrken 21i 14ten büyük olduðu için sað tarafa alýrken 14 kayba
+uðramamasý için 14ü bir geçici deðiþkene tayin ediyoruz
+
+A1: Baþla
+A2: sayýsal i,j,k,gecici
+A3: dizi sayi
+A4: Sayilar=[21,14,36,27,11]
+A5: Döngü for (i=0 to 4)
+A6:	eðer sayi[j]>sayi[j+1]
+A7:		döngü for (j=0 to 3)
+			gecici=sayi[j]
+			sayi[j]=sayi[j+1]
+			sayi[j+1]=gecici
+A8: döngü bitir j
+A9: döngü bitir i
+A10: döngü for (k=0 to 4)
+	yaz sayi[k]
+A11: Döngü bitir k
+A12: bitir.
+
+		

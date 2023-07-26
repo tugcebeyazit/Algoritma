@@ -1,0 +1,13 @@
+Soru: Klavyeden girilen 10 tane sayýdan çift olanlarýnýn toplamýný hesaplayan algoritmayý yazýnýz
+
+A1: baþla
+A2: sayýsal sayi,sayac,toplam
+A3: toplam=0
+A4: döngü (sayac=1 to 10)
+A5: yaz "Sayý Giriniz:"
+A6: oku sayý
+A7: eðer sayý%2==0 ise toplam=toplam+sayi
+A8: deðilse boþ
+A9: döngü bitir
+A10: yaz Çift sayýlarýn toplamý
+A11: bitir.

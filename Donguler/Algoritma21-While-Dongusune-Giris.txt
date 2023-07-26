@@ -1,0 +1,14 @@
+Soru: Kullanýcý sisteme Sayý deðeri 10dan küçük olan bir sayý gireen kadar program Tuðçe Beyazit yazsýn
+
+Not: bu bir while döngüsüdür. belli bir koþul vardýr ve burada baþlangýç ve bitiþ deðeri yoktur.Bunun için, 
+program sýnsuz döngüye girmemesi adýna sayacý arttýrmamýz gerekir
+
+A1: Baþla
+A2: sayýsal sayi
+A3: sayý=0
+A4: yaz bir sayi giriniz
+A5: oku sayi
+A6: döngü (sayý<10 1 to 10 step 1)
+A7: sayi=sayi+1
+A8: oku "Tuðçe Beyazit"
+A9: Bitir

@@ -1,0 +1,20 @@
+Soru: Bir firma iþe alýmlarda 40 yaþ altý kiþileri tercih etmektedir. 
+Bu þartý saðlayan kiþilerde de sürücü belgesi olan üniversite mezunlarýný 
+tercih etmektedir. Buna göre kullanýcýya önce yaþý sorulsun. Yaþý 40 üstü olanlara 
+“Üzgünüz, kriterlerimize uymuyorsunuz.” uyarýsý verilerek programdan çýkýlýrken; 
+yaþ þartý uyanlara diðer iki soruyu sorarak iþe alýnýp alýnmadýklarýný çýktý olarak
+veren kodu yazýnýz.
+
+A1: baþla
+A2: yas (tamsayý), universiteMezunu, surucuBelgesi (string)
+A3: yaz "yaþýnýzý giriniz"
+A4: oku yas
+A5: Eðer yaþ 40tan büyükse yaz "üzgünüz ise alýnmadýnýz".
+    Eðer yas 40tan küçükse;
+A6: yaz "üniversite mezunu musunuz? E/H 
+A7: oku universitemezunu
+A6: yaz "sürücü belgeniz var mý? E/H 
+A7: oku surucuBelgesi
+A8: eðer surucu belgesi ve universite mezunu ise yaz iþe alýndýnýz
+    koþullardan biri saðlanmadýðý durumda yaz ise alýnmadýnýz
+A9: bitir

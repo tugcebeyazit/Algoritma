@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-08 06:04:04 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0wODswNTozMzo1NyDDllM7Mzg1NQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0wODswNjowNDowNCDDllM7MTszOTU0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="elmsayisi, i, temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ka&#231; eleman girilecek:&quot;" newline="True"/>
+            <input variable="elmsayisi"/>
+            <declare name="sayilar" type="Integer" array="True" size="elmsayisi"/>
+            <for variable="i" start="0" end="elmsayisi-1" direction="inc" step="1">
+                <output expression="&quot;Bir Say&#305; Giriniz:&quot;" newline="True"/>
+                <input variable="sayilar[i]"/>
+            </for>
+            <for variable="i" start="0" end="elmsayisi-1" direction="inc" step="1">
+                <output expression="sayilar[i]" newline="True"/>
+            </for>
+            <for variable="i" start="0" end="(elmsayisi-1)/2" direction="inc" step="1">
+                <assign variable="temp" expression="sayilar[i]"/>
+                <assign variable="sayilar[i]" expression="sayilar[elmsayisi-i-1]"/>
+                <assign variable="sayilar[elmsayisi-i-1]" expression="temp"/>
+            </for>
+            <output expression="&quot;Dizinin Son Hali&quot;" newline="True"/>
+            <for variable="i" start="0" end="elmsayisi-1" direction="inc" step="1">
+                <output expression="sayilar[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

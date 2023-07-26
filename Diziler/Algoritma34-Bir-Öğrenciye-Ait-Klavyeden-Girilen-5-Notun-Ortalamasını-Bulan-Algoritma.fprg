@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-07 11:31:34 &#214;&#214;"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNjswODoyMjo1NyDDllM7Mzg1Mw=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNzsxMTozMTozNCDDlsOWOzE7NDA4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, notToplami" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <declare name="notlar" type="Integer" array="True" size="5"/>
+            <assign variable="notToplami" expression="0"/>
+            <for variable="sayac" start="0" end="4" direction="inc" step="1">
+                <output expression="sayac+1 &amp; &quot;.Notu Giriniz:&quot;" newline="True"/>
+                <input variable="notlar[sayac]"/>
+            </for>
+            <for variable="sayac" start="0" end="4" direction="inc" step="1">
+                <assign variable="notToplami" expression="notToplami+notlar[sayac]"/>
+            </for>
+            <assign variable="ortalama" expression="notToplami/sayac"/>
+            <output expression="ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-23 05:52:03 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yMzswNDoxNToyNCDDllM7Mzg0NQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNy0yMzswNTo1MjowMyDDllM7MTszOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dizi" type="Integer" array="True" size="100"/>
+            <declare name="i, sayi, konum, elemansayisi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ka&#231; say&#305; gireceksiniz:&quot;" newline="True"/>
+            <input variable="elemansayisi"/>
+            <for variable="i" start="0" end="elemansayisi-1" direction="inc" step="1">
+                <output expression="&quot;Bir sayi giriniz:&quot;" newline="True"/>
+                <input variable="dizi[i]"/>
+            </for>
+            <output expression="&quot;Hangi Konuma Say&#305; Gireceksiniz:&quot;" newline="True"/>
+            <input variable="konum"/>
+            <output expression="&quot;Diziye eklenecek say&#305;y&#305; giriniz:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="elemansayisi-1" end="konum-1" direction="dec" step="1">
+                <comment text="for d&#246;ng&#252;s&#252; i&#231;inde elemansayisi-1 den ba&#351;lay&#305;p konum-1 yapman&#305;n nedeni kullan&#305;c&#305;n&#305;n belirlemi&#351; oldu&#287;u konuma belirlemi&#351; oldu&#287;u say&#305;y&#305; girmek i&#231;in&#13;&#10;bir &#246;nceki eleman&#305;n bir sonraki eleman yerine aktar&#305;lmas&#305;n&#305; saylar indislerde 0 dan ba&#351;lad&#305;&#287;&#305; i&#231;in konum yeri 3 ise konum-1 den istenilen yere ula&#351;mas&#305; sa&#287;lan&#305;r"/>
+                <assign variable="dizi[i+1]" expression="dizi[i]"/>
+            </for>
+            <comment text="dizinin konum-1 k&#305;sm&#305;na kullan&#305;c&#305;n&#305;n girdi&#287;i say&#305;y&#305; aktar"/>
+            <assign variable="dizi[konum-1]" expression="sayi"/>
+            <for variable="i" start="0" end="elemansayisi" direction="inc" step="1">
+                <output expression="dizi[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

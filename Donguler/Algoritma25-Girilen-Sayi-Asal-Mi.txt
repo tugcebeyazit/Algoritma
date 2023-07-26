@@ -1,0 +1,16 @@
+Soru: Girilen sayýnýn asal olup olmadýðýný bulan programýn akýþ diagramý ve algoritmasýný yaz
+
+A1: baþla
+A2: sayýsal sayi,sayac,asalDurumKontrol
+A3: asalDurumKontrol=0
+A4: yaz bir sayý giriniz
+A5: oku sayi
+A6: döngü for (sayac=2,sayi/2)
+	eðer sayi%sayac==0 (bu durum doðruysa aslýnda sayý asal deðildir sayýnýn asal olasbilmesi için bu döngüye girmemesi gerekiyor)
+		asalDurumKontrol==1
+A7: eðer asalDurumKontrol==0 ise 
+	çýktý "sayý asaldýr"
+    Deðilse
+	çýktý "sayý asal deðildir"
+A8: döngü bitir
+A9: bitir

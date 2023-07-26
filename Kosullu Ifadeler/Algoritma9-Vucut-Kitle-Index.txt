@@ -1,0 +1,10 @@
+Soru: Soru : Obeziteyi hesaplamak için tüm dünyada Vücut kitle indeksi (VKÝ) hesaplamasý kullanýlýr. VKÝ deðeriniz kilogram olarak aðýrlýðýnýzýn, metre cinsinden boy uzunluðunun karesine bölünmesiyle (kg/m2) elde edilir. Girilen boy ve aðýrlýk deðerlerine göre VKÝ deðerini hesaplayýnýz ve sonucu aþaðýdaki tablo deðerlerine göre Kilo Kategorisini ekrana yazdýrýn.
+A1: Baþla
+A2: Sayýsal vki, boy, kilo
+A3: Oku boy, kilo
+A4: vki = kilo / (boy * boy)
+A5: Eðer vki < 18.5 Yaz Zayýf
+A6: Eðer vki >=18.5 && vki <= 24.9 Yaz Saðlýklý
+A7: Eðer vki >= 25 && vki <= 29.99 Yaz Fazla Kilolu
+A8: Eðer vki >= 30 && vki <= 34.9 Yaz 1. Derece Obezite A9: Eðer vki >= 35 && vki <= 39.9 Yaz 2. Derece Obezite A10: Eðer vki >= 40 Yaz 3.Derece Obezite
+A11: Bitir

@@ -1,0 +1,23 @@
+Soru: Kullanýcýdan alýnan bir dizinin elemanlarýný ters yazan algoritma
+
+önemli not burada geçici bir deðiþken oluþturmamýz gerekir nedeni ise dizinin 
+ilk elemanýný sona atamasýný yaparken sondaki elemanýn üzerine geleceðinden sondaki 
+elemanýn kaybýna neden oluncaðýndan bu elemaý geçici tampon deðiþkende tutmalýyýz
+
+A1:baþla
+A2: sayýsal elmsayisi, i, temp
+A3: yaz "Kaç sayý girilecek"
+A4: oku elmsayisi
+A5: dizi sayilar[elmsayisi]
+A6: döngü for (i to elmsayisi-1)
+	çýktý "Bir sayý Giriniz:"
+	oku sayilar[i]
+A7: döngü for (i to elmsayisi-1)
+	çýktý sayilar[i]
+A8: döngü for (i to (elmsayisi-1)/2)
+	temp=sayilar[i] ---> bu alanda ilk deðiþkenin kaybýný engellemek için geçici atamasý
+	sayilar[i]=sayilar[elmsayisi-i-1] ---> son elemanýn ilk indise atanmasý
+	sayilar[elmsayisi-i-1]= temp ---> geçicideki elamaný son kýsma atanmasý
+
+A9: döngü for (i to elmsayisi-1)
+	çýktý sayilar[i]

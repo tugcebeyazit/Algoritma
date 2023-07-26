@@ -1,0 +1,12 @@
+Soru: Klavyeden girilen 10 tane sayýyý toplayan algoritmayý yazýnýz
+
+A1: baþla
+A2: sayýsal sayi,sayac,toplam
+A3: toplam=0
+A4: döngü (sayac=1 to 10)
+A5: yaz "Sayý Giriniz:"
+A6: oku sayý
+A7: toplam=toplam+sayi
+A8: Döngü sonu
+A9: yaz toplam
+A10: bitir

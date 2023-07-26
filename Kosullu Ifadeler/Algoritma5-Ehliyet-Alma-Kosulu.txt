@@ -1,0 +1,9 @@
+Soru : Yaþý girilen kiþinin yaþý 18e eþit veya büyük ise ehliyet alabilirsiniz deðilse ehliyet alamazsýnýz.
+
+A1: Baþla
+A2: sayýsal yas
+A3: yaz: "yaþýnýzý giriniz"
+A4: oku yas
+A5: yas eðer 18e eþiy yada büyük ise ehliyet alýr
+    deðilse ehliyet alamaz 
+A6: bitir

@@ -1,0 +1,22 @@
+Soru: Girilen Sayý Kadar Mükemmel Sayý Üreten Algoritma
+
+Not: Mükemmel Sayý 1 ve kendisi hariç pozitif bölenlerinin sayýsýnýn toplamý kendisine
+eþit olan sayýya denir
+
+A1: baþla
+A2: sayýsal istenenSayi, bulunanSayi, kontrolEdilenSayi, carpanToplami, sayac
+A3: yaz "Kaç Adet Mükemmel Sayi Ýstiyorsunuz?"
+A4: oku istenenSayi
+A5: kontrolEdilenSayi=1
+A6: bulunanSayi=0
+A7: döngü while (istenenSayi>bulunanSayi)
+	carpanToplamý=0 (bu asamada çcarpan toplamýnýn sýfýrlanmasý gerekiyor çünkü bir önceki döngüden kalan çarpanlarla iþlem yapar buda yanlýþ olur)
+		döngü for (sayac=1 kontrolEdilenSayi/2)
+			eðer kontrolEdilenSayi%sayac==0 ise
+				carpanToplami=carpanToplami+sayac
+		döngü bitir
+	eðer kontrolEdilenSayi==carpanToplami
+		yaz kontrolEdilenSayi
+		bulunanSayi=bulunanSayi+1
+	kontrolEdilenSayi+1
+A8: Döngü Bitir

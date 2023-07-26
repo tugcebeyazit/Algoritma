@@ -1,0 +1,10 @@
+Soru: Girilen bir sayýnýn faktöriyelini hesaplayan algoritma
+
+A1: baþla
+A2: sayisal sayi,sayac,faktoriyel
+A3: yaz "Bir sayý giriniz:"
+A4: faktoriyel = 1
+A5: Döngü (sayac=1 to sayi)
+A6: faktoriyel = faktoriyel*sayac
+A7: döngü bitir
+A8: çýktý sayi!=faktöriyel

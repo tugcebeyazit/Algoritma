@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 10:04:29 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wMzswOToyODoxNCDDllM7Mzg0OQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNS0wMzsxMDowNDoyOSDDllM7MTszOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, x1, x2, delta" type="Real" array="False" size=""/>
+            <output expression="&quot;a,b,c  i&#231;in de&#287;er giriniz:&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b*b-4*a*c"/>
+            <output expression="&quot;Delta:&quot; &amp; delta" newline="True"/>
+            <if expression="delta&gt;0">
+                <then>
+                    <assign variable="x1" expression="(-b-(delta^(1/2)))/(2*a)"/>
+                    <assign variable="x2" expression="(-b+(delta^(1/2)))/(2*a)"/>
+                    <output expression="&quot;1. k&#246;k:&quot; &amp; x1  &amp; &quot; ve&quot; &amp; &quot; 2. k&#246;k:&quot; &amp; x2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="delta=0">
+                        <then>
+                            <assign variable="x1" expression="-b/2*a"/>
+                            <output expression="&quot;x1=x2:&quot; &amp; x1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="delta&lt;0">
+                                <then>
+                                    <output expression="&quot;K&#246;k Yok&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

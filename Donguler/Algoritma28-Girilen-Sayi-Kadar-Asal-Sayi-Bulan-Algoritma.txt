@@ -1,0 +1,18 @@
+Soru: Girilen sayý kadar asal sayý bulan algoritma
+
+A1: Baþla
+A2: sayisal istenenAsalSayi, kontrolEdilenSayi, bulunanAsalSayi, sayac, asalKontrol
+A3: yaz "Kaç Adet Asal Sayý Bulunacak"
+A4: oku istenenAsalSayi
+A5: kontrolEdilenAsalSayi=2
+A6: bulunanAsalSayi=0
+A7: Döngü while (istenenAsalSayi>bulunanAsalSayi)
+	asalkontrol=0
+		döngü for (sayac=2 kontrolEdilenSayi/2)
+			eðer (kontrolEdilenSayi%sayac==0)
+				doðru ise asalKontrol=1
+			eðer asalKontrol=0 
+				doðru ise çýktý kontrolEdilenSayi	
+				bulunanAsalSayi=bulunanAsalSayi+1
+A8: kontrolEdilenSayi=kontrolEdilenSayi+1
+A9: Döngü Bitir

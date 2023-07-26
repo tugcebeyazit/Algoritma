@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 12:41:20 &#214;&#214;"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNzsxMjowNzoxMiDDllM7Mzg0Mw=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wOTsxMjo0MToyMCDDlsOWOzE7NDA4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j, k, gecici" type="Integer" array="False" size=""/>
+            <declare name="sayi" type="Integer" array="True" size="5"/>
+            <assign variable="sayi[0]" expression="21"/>
+            <assign variable="sayi[1]" expression="14"/>
+            <assign variable="sayi[2]" expression="36"/>
+            <assign variable="sayi[3]" expression="27"/>
+            <assign variable="sayi[4]" expression="11"/>
+            <comment text="inin 0 ile 4 aral&#305;&#287;&#305;nda olmas&#305; dizinin eleman say&#305;s&#305;n&#305;n 5 olmas&#305;ndan kaynakl&#305;d&#305;r"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <comment text="j nin 0 ile 3 aral&#305;&#287;&#305;nda olmas&#305; bu kar&#351;&#305;la&#351;t&#305;rma 4 kez tekrarlanaca&#287;&#305;ndan dolay&#305;"/>
+                <for variable="j" start="0" end="3" direction="inc" step="1">
+                    <if expression="sayi[j]&gt;sayi[j+1]">
+                        <then>
+                            <comment text="gecici de&#287;i&#351;keninin tan&#305;mlanmas&#305; dizideki elaman kayb&#305;n&#305; &#246;nlemek ama&#231;l&#305;d&#305;r &#246;rne&#287;in 14 ile 21 kar&#351;&#305;la&#351;t&#305;r&#305;ken 21 daha b&#252;y&#252;k oldu&#287;u i&#231;in sa&#287; tarafa yani 14&#252;n yerine yaz&#305;l&#305;rken 14 eleman&#305;n&#305;n kaybolmamas&#305; i&#231;in ge&#231;ici bir de&#287;i&#351;kene atamas&#305; yap&#305;l&#305;r"/>
+                            <assign variable="gecici" expression="sayi[j]"/>
+                            <assign variable="sayi[j]" expression="sayi[j+1]"/>
+                            <assign variable="sayi[j+1]" expression="gecici"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+            <for variable="k" start="0" end="4" direction="inc" step="1">
+                <output expression="sayi[k]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

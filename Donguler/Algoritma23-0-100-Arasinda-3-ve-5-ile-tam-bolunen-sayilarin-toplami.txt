@@ -1,0 +1,14 @@
+Soru: 0-100 arasýnda 3 ve 5 ile tam bölünen sayýlan toplamýný alan ve listeleyen programýn algoritmasý
+
+while döngüsü ile yazalým
+
+A1: baþla
+A2: sayisal sayi,toplam
+A3 sayi=0 ve toplam=0 (sayýnýn 0 dan baþlamasý ve 100e kadar devam etmesi için baþlangýç deðerini kullanýcýdan almýyor)
+A4: döngü (sayi<100) 
+	if (sayi%3==0 & sayi%5==0) ise 
+	toplam=toplam+sayi
+	çýktý: sayi
+	deðilse sayi=sayi+1 döngüye bir arttýrarak devam eder
+A5: döngüyü bitir
+A6: bitir

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-06 05:58:34 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNTswMjozNTo0NyDDllM7Mzg0OQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNi0wNjswNTo1ODozNCDDllM7MjszOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac" type="Integer" array="False" size=""/>
+            <declare name="notlar" type="Integer" array="True" size="5"/>
+            <assign variable="notlar[0]" expression="80"/>
+            <assign variable="notlar[1]" expression="75"/>
+            <assign variable="notlar[2]" expression="53"/>
+            <assign variable="notlar[3]" expression="62"/>
+            <assign variable="notlar[4]" expression="43"/>
+            <assign variable="sayac" expression="0"/>
+            <while expression="sayac&lt;5">
+                <assign variable="notlar[sayac]" expression="notlar[sayac]+10"/>
+                <output expression="notlar[sayac]" newline="True"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

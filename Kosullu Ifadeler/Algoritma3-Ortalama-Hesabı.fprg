@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-28 09:57:57 &#214;S"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0yODswOTo1MjoxNyDDllM7Mzg1NQ=="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtXSU4tVUo4SVBSRzdHNUI7MjAyMy0wNC0yODswOTo1Nzo1NyDDllM7MTszOTcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3, ort" type="Real" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;2. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="s2"/>
+            <output expression="&quot;3. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="s3"/>
+            <assign variable="ort" expression="(s1+s2+s3)/3"/>
+            <output expression="&quot;Ortalama: &quot; &amp; ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
